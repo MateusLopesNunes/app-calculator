@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         if (!calculate) {
             calculate(view);
         }
+
         Button button = (Button) view;
         operation = button.getText().charAt(0);
         result = Double.parseDouble(textResult.getText().toString());
